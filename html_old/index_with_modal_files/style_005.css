@@ -1,0 +1,68 @@
+.slide_kalina{position:relative;}
+.slide_kalina ul{list-style-type:none;margin:0px;padding:0px;}
+
+.slide_kalina #inner{
+	overflow:hidden;
+}
+.slide_kalina  #inner  ul{
+	position:relative;
+	margin:0px;
+	padding:0px;
+}
+.slide_kalina  #inner ul li{
+	padding:0px;
+	margin:0px;
+	display:block;
+}
+
+/*исключительно для конретных эффектов*/
+.slide_kalina #inner  ul{
+	width:99999px;
+}
+.slide_kalina #inner ul li{
+	float:left;
+}
+
+.slide_kalina #prev,.slide_kalina #next{
+	width:28px;
+	height:46px;
+	cursor:pointer;	
+}
+.slide_kalina #prev{
+	position:absolute;
+	right:30px;
+	top:0;
+	background:url(prev4.png) no-repeat;
+}
+.slide_kalina #next{
+	position:absolute;
+	right:1px;
+	top:0;
+	background:url(next4.png) no-repeat;
+}
+.slide_kalina #prev:hover,.slide_kalina #next:hover{
+}
+.slide_kalina #prev:active{
+	
+}
+.slide_kalina #next:active{
+	
+}
+
+.slide_kalina #shag{
+	position:absolute;
+	bottom:10px;
+	width:210px;
+	height:37px;
+	text-align:center;
+	left:406px;
+}
+.slide_kalina #shag span{
+	display:inline-block;
+	width:12px;height:12px;
+	background:url(shag.png) no-repeat;
+	cursor:pointer;
+	margin-left:5px;
+	margin-top:15px;
+}
+.slide_kalina #shag span:hover,.slide_kalina #shag span.act{background-position:-12px 0;}

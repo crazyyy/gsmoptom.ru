@@ -1,0 +1,230 @@
+.catalog_tovarlist .block{
+	display:inline-block;
+    width:225px;
+    height:328px;
+    border-radius:4px;
+    box-shadow:0 1px 7px #bdbcbc;
+    background:#ffffff;
+    margin-top:44px;
+    margin-right:16px;
+    vertical-align:top;
+    text-align:center;
+    position:relative;
+}
+.catalog_tovarlist .block:last-child{
+	margin-right:0px;
+}
+.catalog_tovarlist .block .pad{
+	padding:5px;
+	overflow:hidden;
+}
+.catalog_tovarlist .img{
+    
+}
+.catalog_tovarlist .icon{
+	position:absolute;
+	top:14px;
+	left:11px;
+}
+.catalog_tovarlist .icon1{
+	float:left;
+	margin-right:3px;
+}
+.catalog_tovarlist .icon2{
+	float:left;
+}
+.catalog_tovarlist .link{
+	height:120px;
+	width:100%;
+	display:table;
+	text-align:center;	
+	/*
+	background:#000;	
+	*/	
+}
+.catalog_tovarlist .link .td{
+	display:table-cell;
+	vertical-align:middle;
+}
+.catalog_tovarlist .link .td{
+	padding:0 10px;
+}
+.catalog_tovarlist .link a{
+	font-size:14px;
+	line-height:1.2em;
+	color:#0389af;
+}
+.catalog_tovarlist .btn{
+    position:absolute;
+    bottom:17px;
+    left:50%;
+    margin-left:-66px;
+}
+
+.catalog_btn1{
+	text-align:center;
+}
+.catalog_btn1 a{
+	position:relative;	
+	display:block;
+	width:131px;
+	background:url(../img/btn1.jpg) no-repeat;
+	border-radius:4px;
+	box-shadow:0 1px 7px #bdbcbc;
+	font-size:14px;
+	line-height:14px;
+	font-weight:bold;
+	color:#000;
+	cursor:pointer;
+	text-decoration:none;
+	padding-top:13px;
+	padding-bottom:10px;
+}
+.catalog_btn1 a:hover{
+	text-decoration:none;
+}
+.catalog_btn1 a:active{
+	top:1px;
+}
+
+.catalog_btn2{
+	text-align:center;
+	margin-top:43px;
+}
+.catalog_btn2 span{
+	position:relative;
+	display:inline-block;
+	width:236px;
+	background:url(../img/btn2.png) no-repeat;
+	font-size:18px;line-height:18px;color:#000;font-weight:bold;
+	text-align:center;
+	cursor:pointer;
+	text-decoration:none;
+	padding-top:22px;padding-bottom:19px;
+	top:0px;
+}
+.catalog_btn2 span:hover{
+	text-decoration:none;
+}
+.catalog_btn2 span:active{
+	top:2px;
+}
+
+#mod_catalog #zagolovok{
+	font-size:22px;color:#000;line-height:26px;
+	padding-bottom:26px;
+}
+
+#mod_catalog #vievone #vkladtop{
+	padding:17px;
+}
+#mod_catalog #vievone #vkladtop .bl{
+	display:inline-block;	
+	padding:11px 55px 10px 55px;
+	border:1px #d4d4d4 solid;
+	border-radius:5px;
+	font-size:14px;line-height:14px;color:#000;font-weight:bold;
+	text-decoration:none;
+	margin-right:23px;
+}
+#mod_catalog #vievone #vkladtop .bl:hover,#mod_catalog #vievone #vkladtop .bl#act{
+	background:url(../img/vievone_vkladtop_bg.png);
+	text-decoration:none;
+	box-shadow:inset 1px 2px 6px -3px rgba(0,0,0,0.5);
+}
+
+#mod_catalog #vievone #tab1{
+	width:100%;
+}
+#mod_catalog #vievone #tab1 td{
+	vertical-align:top;
+}
+#mod_catalog #vievone #tab1 .td1{
+	width:235px;
+	background:url(../img/vievone_dot.png) top right repeat-y;
+}
+#mod_catalog #vievone #tab1 .td2{
+	padding:30px 0px 30px 0px;
+}
+#mod_catalog #vievone #tab1 .td2 .pad{
+	padding-left:18px;
+	padding-right:14px;
+}
+
+#mod_catalog #vievone #vkladleft{
+	padding-top:25px;padding-bottom:50px;
+	position:relative;
+	z-index:1000;
+}
+#mod_catalog #vievone #vkladleft .table{
+	display:table;
+}
+#mod_catalog #vievone #vkladleft .tr{
+	display:table-row;	
+}
+#mod_catalog #vievone #vkladleft .td{
+	display:table-cell;
+	width:235px;
+	height:58px;
+	overflow:hidden;
+	vertical-align:middle;
+	font-size:15px;line-height:18px;color:#00acdd;
+	text-decoration:none;
+	padding-left:15px;
+	padding-right:10px;	
+}
+#mod_catalog #vievone #vkladleft .td:hover,#mod_catalog #vievone #vkladleft .td#act{
+	background-image:url(../img/vievone_vkladleft_bg.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	color:#fff;
+	text-decoration:none;
+}
+#mod_catalog #vievone #vkladleft .td_hr{
+	line-height:15px;height:15px;
+}
+
+#mod_catalog #vievone .tovar{
+	margin-left:10px;
+	margin-top:10px;
+	margin-right:13px;
+}
+#mod_catalog #vievone .tovar .bl{
+	margin-top:8px;
+	line-height:17px;	
+}
+#mod_catalog #vievone .tovar .bl:first-child{
+	margin-top:0px;
+}
+#mod_catalog #vievone .tovar .bl a{
+	font-size:14px;line-height:17px; color: #0389af;
+}
+#mod_catalog #vievone .tovar .bl a#act{
+	font-weight:bold; color: #0389af;
+}
+
+.catalog_tovarlist2 .block{
+	float:left;
+	width:230px;
+	margin-left:15px;
+	margin-bottom:30px;	
+}
+.catalog_tovarlist2 .block:first-child{
+	margin-left:0px;
+}
+.catalog_tovarlist2 .block .photo{
+	height:155px;
+	overflow:hidden;
+}
+.catalog_tovarlist2 .block .name{
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:15px;
+}
+.catalog_tovarlist2 .block .name a{
+	font-size:14px;line-height:1.2em;color:#0389af;
+	text-decoration:underline;
+}
+.catalog_tovarlist2 .block .name a:hover{
+	text-decoration:none;
+}
