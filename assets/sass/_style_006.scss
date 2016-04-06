@@ -1,0 +1,285 @@
+.catalog_tovarlist {
+  .block {
+    position: relative;
+    display: inline-block;
+    width: 225px;
+    height: 328px;
+    margin-top: 44px;
+    margin-right: 16px;
+    text-align: center;
+    vertical-align: top;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 1px 7px #bdbcbc;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    .pad {
+      overflow: hidden;
+      padding: 5px;
+    }
+  }
+
+  .icon {
+    position: absolute;
+    top: 14px;
+    left: 11px;
+  }
+
+  .icon1 {
+    float: left;
+    margin-right: 3px;
+  }
+
+  .icon2 {
+    float: left;
+  }
+
+  .link {
+    display: table;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+
+    /*
+    background:#000;
+    */
+
+    .td {
+      display: table-cell;
+      vertical-align: middle;
+      padding: 0 10px;
+    }
+
+    a {
+      font-size: 14px;
+      line-height: 1.2em;
+      color: #0389af;
+    }
+  }
+
+  .btn {
+    position: absolute;
+    bottom: 17px;
+    left: 50%;
+    margin-left: -66px;
+  }
+}
+
+.catalog_btn1 {
+  text-align: center;
+
+  a {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+    position: relative;
+    display: block;
+    width: 131px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    border-radius: 4px;
+    background: url(../img/vievone_vkladleft_bg.png) no-repeat;
+    box-shadow: 0 1px 7px #bdbcbc;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:active {
+      top: 1px;
+    }
+  }
+}
+
+.catalog_btn2 {
+  margin-top: 43px;
+  text-align: center;
+
+  span {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    position: relative;
+    top: 0;
+    display: inline-block;
+    width: 236px;
+    padding-top: 22px;
+    padding-bottom: 19px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    background: url(../img/vievone_vkladleft_bg.png) no-repeat;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:active {
+      top: 2px;
+    }
+  }
+}
+
+#mod_catalog {
+  #zagolovok {
+    font-size: 22px;
+    line-height: 26px;
+    padding-bottom: 26px;
+    color: #000;
+  }
+
+  #vievone {
+    #vkladtop {
+      padding: 17px;
+
+      .bl {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 14px;
+        display: inline-block;
+        margin-right: 23px;
+        padding: 11px 55px 10px 55px;
+        text-decoration: none;
+        color: #000;
+        border: 1px #d4d4d4 solid;
+        border-radius: 5px;
+
+        &:hover, &#act {
+          text-decoration: none;
+          background: url(../img/vievone_vkladleft_bg.png);
+          box-shadow: inset 1px 2px 6px -3px rgba(0, 0, 0, 0.5);
+        }
+      }
+    }
+
+    #tab1 {
+      width: 100%;
+
+      td {
+        vertical-align: top;
+      }
+
+      .td1 {
+        width: 235px;
+        background: url(../img/vievone_vkladleft_bg.png) top right repeat-y;
+      }
+
+      .td2 {
+        padding: 30px 0 30px 0;
+
+        .pad {
+          padding-right: 14px;
+          padding-left: 18px;
+        }
+      }
+    }
+
+    #vkladleft {
+      position: relative;
+      z-index: 1000;
+      padding-top: 25px;
+      padding-bottom: 50px;
+
+      .table {
+        display: table;
+      }
+
+      .tr {
+        display: table-row;
+      }
+
+      .td {
+        font-size: 15px;
+        line-height: 18px;
+        display: table-cell;
+        overflow: hidden;
+        width: 235px;
+        height: 58px;
+        padding-right: 10px;
+        padding-left: 15px;
+        vertical-align: middle;
+        text-decoration: none;
+        color: #00acdd;
+
+        &:hover, &#act {
+          text-decoration: none;
+          color: #fff;
+          background-image: url(../img/vievone_vkladleft_bg.png);
+          background-repeat: no-repeat;
+          background-position: top left;
+        }
+      }
+
+      .td_hr {
+        line-height: 15px;
+        height: 15px;
+      }
+    }
+
+    .tovar {
+      margin-top: 10px;
+      margin-right: 13px;
+      margin-left: 10px;
+
+      .bl {
+        line-height: 17px;
+        margin-top: 8px;
+
+        &:first-child {
+          margin-top: 0;
+        }
+
+        a {
+          font-size: 14px;
+          line-height: 17px;
+          color: #0389af;
+
+          &#act {
+            font-weight: bold;
+            color: #0389af;
+          }
+        }
+      }
+    }
+  }
+}
+
+.catalog_tovarlist2 .block {
+  float: left;
+  width: 230px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  .photo {
+    overflow: hidden;
+    height: 155px;
+  }
+
+  .name {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    text-align: center;
+
+    a {
+      font-size: 14px;
+      line-height: 1.2em;
+      text-decoration: underline;
+      color: #0389af;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

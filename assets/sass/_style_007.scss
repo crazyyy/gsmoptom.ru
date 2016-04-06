@@ -1,0 +1,129 @@
+.slide_sonata {
+  position: relative;
+  #caption {
+    display: none;
+  }
+  #inner {
+    position: relative;
+
+    overflow: hidden;
+
+    width: 100%;
+    margin: 0 auto;
+  }
+  #inner2 {
+    position: relative;
+
+    margin: 0 auto;
+    > div {
+      float: left;
+
+      width: 100%;
+
+      background-repeat: no-repeat;
+      background-position: top center;
+    }
+  }
+  .timerhand {
+    position: absolute;
+    z-index: 12;
+    top: 50%;
+
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+
+    cursor: pointer;
+
+    background-repeat: no-repeat;
+  }
+  #prev {
+    left: 0;
+
+    background-image: url(../img/shag.png);
+  }
+  #next {
+    right: 0;
+
+    background-image: url(../img/shag.png);
+  }
+  .timerhand:hover {
+    opacity: .8;
+  }
+  #prev:active {
+    left: -1px;
+  }
+  #next:active {
+    right: -1px;
+  }
+  #shag {
+    position: absolute;
+    z-index: 12;
+    right: -60px;
+    bottom: 30px;
+    a {
+      display: block;
+      float: left;
+
+      width: 12px;
+      height: 12px;
+      margin-left: 7px;
+
+      background-image: url(../img/shag.png);
+      background-repeat: no-repeat;
+      &:hover {
+        background-position: -12px 0;
+      }
+    }
+    #act {
+      background-position: -12px 0;
+    }
+  }
+  #otnos1 {
+    position: absolute;
+    /*
+    height:100px;
+    background:#000;
+    */
+    top: 0;
+    left: 50%;
+
+    width: 980px;
+    margin: 0 auto;
+    margin-left: -490px;
+
+    background: transparent;
+  }
+  #otnos2 {
+    position: absolute;
+    /*
+    height:100px;
+    background:#000;
+    */
+    top: 0;
+    left: 50%;
+
+    width: 100%;
+    margin: 0 auto;
+
+    background: transparent;
+    a#link {
+      position: absolute;
+      z-index: 11;
+      /*
+      bottom:150px;
+      right:180px;
+      */
+      top: 0;
+      left: 0;
+
+      display: block;
+
+      width: 100%;
+      height: 100%;
+
+      opacity: 0;
+      background-color: #f0f0f0;
+    }
+  }
+}
