@@ -251,7 +251,7 @@
                   </div>
                   <div class="bg">
                     <div class="color">ffcc00</div>
-                    <div class="image">../img/taneco.jpg</div>
+                    <div class="image"><?php echo get_template_directory_uri(); ?>/img/taneco.jpg</div>
                   </div>
                 </div>
                 <div id="" class="block">
@@ -367,7 +367,7 @@
                   </div>
                   <div class="bg">
                     <div class="color">125426</div>
-                    <div class="image">img/taif.jpg</div>
+                    <div class="image"><?php echo get_template_directory_uri(); ?>/img/taif.jpg</div>
                   </div>
                 </div>
                 <div id="" class="block">
@@ -437,7 +437,7 @@
                   </div>
                   <div class="bg">
                     <div class="color">992441</div>
-                    <div class="image">img/bashneft.jpg</div>
+                    <div class="image"><?php echo get_template_directory_uri(); ?>/img/bashneft.jpg</div>
                   </div>
                 </div>
                 <div id="" class="block">
@@ -486,7 +486,7 @@
                   </div>
                   <div class="bg">
                     <div class="color">6f634e</div>
-                    <div class="image">img/raznoe.jpg</div>
+                    <div class="image"><?php echo get_template_directory_uri(); ?>/img/raznoe.jpg</div>
                   </div>
                 </div>
                 <div class="clear"></div>
