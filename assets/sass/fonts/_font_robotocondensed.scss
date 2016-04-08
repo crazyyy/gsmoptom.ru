@@ -1,0 +1,12 @@
+$os-font-path: '../fonts' !default;
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-weight: normal;
+  font-style: normal;
+
+  src: url('#{$os-font-path}/robotocondensed-regular.eot');
+  src: url('#{$os-font-path}/robotocondensed-regular.eot?#iefix') format('embedded-opentype'),
+  url('#{$os-font-path}/robotocondensed-regular.woff') format('woff'),
+  url('#{$os-font-path}/robotocondensed-regular.ttf') format('truetype'),;
+}

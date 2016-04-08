@@ -1,0 +1,42 @@
+$os-font-path:        "../fonts" !default;
+
+@font-face {
+    font-family: 'PFDinTextCondProRegular';
+    src: url('#{$os-font-path}/pfdintextcomppro-regular-webfont.eot');
+    src: url('#{$os-font-path}/pfdintextcomppro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$os-font-path}/pfdintextcomppro-regular-webfont.woff') format('woff'),
+         url('#{$os-font-path}/pfdintextcomppro-regular-webfont.ttf') format('truetype'),
+         url('#{$os-font-path}/pfdintextcomppro-regular-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PFDinTextCondProRegular';
+    src: url('#{$os-font-path}/pfdintextcomppro-bold-webfont.eot');
+    src: url('#{$os-font-path}/pfdintextcomppro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$os-font-path}/pfdintextcomppro-bold-webfont.woff') format('woff'),
+         url('#{$os-font-path}/pfdintextcomppro-bold-webfont.ttf') format('truetype'),
+         url('#{$os-font-path}/pfdintextcomppro-bold-webfont.svg#open_sansregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PFDinTextCondProRegular';
+    src: url('#{$os-font-path}/pfdintextcomppro-light-webfont.eot');
+    src: url('#{$os-font-path}/pfdintextcomppro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$os-font-path}/pfdintextcomppro-light-webfont.woff') format('woff'),
+         url('#{$os-font-path}/pfdintextcomppro-light-webfont.ttf') format('truetype'),
+         url('#{$os-font-path}/pfdintextcomppro-light-webfont.svg#open_sansbold') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PFDinTextCondProRegular';
+    src: url('#{$os-font-path}/pfdintextcomppro-medium-webfont.eot');
+    src: url('#{$os-font-path}/pfdintextcomppro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('#{$os-font-path}/pfdintextcomppro-medium-webfont.woff') format('woff'),
+         url('#{$os-font-path}/pfdintextcomppro-medium-webfont.ttf') format('truetype'),
+         url('#{$os-font-path}/pfdintextcomppro-medium-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}

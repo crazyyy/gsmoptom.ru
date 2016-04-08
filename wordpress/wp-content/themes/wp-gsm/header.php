@@ -22,6 +22,11 @@
   <!-- css + javascript -->
   <?php wp_head(); ?>
 
+  <script>
+    homeurl = '<?php echo home_url(); ?>';
+    templateDirectory = '<?php echo get_template_directory_uri(); ?>';
+    var SITE_URLSEND = '<?php echo home_url(); ?>';
+  </script>
 
   <script src="<?php echo get_template_directory_uri(); ?>/js/vendor.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/jquery_easing.js"></script>
@@ -39,9 +44,7 @@
   <script src="<?php echo get_template_directory_uri(); ?>/js/script_003.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/script_008.js"></script>
 
-  <script>
-    var SITE_URLSEND = '<?php echo home_url(); ?>';
-  </script>
+
 
 </head>
 

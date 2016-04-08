@@ -1,10 +1,12 @@
 //ïðåäçàãðóçêà èçîáðàæåíèé
 var preloadimg=new Array();
-preloadimg[0]='/i/dialog2_close.png';
-img=new Array();
+var templateDirectory = window.templateDirectory;
+preloadimg[0] = templateDirectory + '/img/dialog2_close.png';
+var dialog_close = templateDirectory + '/img/dialog2_close.png';
+img = new Array();
 for(var i=0;i<preloadimg.length;i++){
-	img[i]=new Image();
-	img[i].src=preloadimg[i];
+  img[i]=new Image();
+  img[i].src=preloadimg[i];
 }
 
 $(function(){
@@ -235,7 +237,7 @@ function dialog_2(data){
     	'<div id=dialog_2>'+
 			'<div class=label style="width:'+data.width+'px;min-height:100%;margin-left:-'+marginLeft+'px;">';
 				dialkarkas+='<div class=header><span class=close_dialog><a href="javascript:void(0)">Çàêðûòü</a>&nbsp;&nbsp;';
-				dialkarkas+='<img src="/i/dialog2_close.png" align=absmiddle style="cursor:pointer;"></a></span></div>';
+				dialkarkas+='<img src="' + dialog_close + '" align=absmiddle style="cursor:pointer;"></a></span></div>';
 				dialkarkas+='<div class=data style="min-height:'+data.height+'px;height:auto !important;height:'+data.height+'px"></div>'+
 			'</div>'+
 			'<div style="position:relative;height:100px;"></div>'+
