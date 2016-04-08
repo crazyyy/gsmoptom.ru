@@ -1,3 +1,20 @@
+.clearfix {
+  *zoom: 1;
+  &:before {
+    display: table;
+
+    content: '';
+  }
+  &:after {
+    display: table;
+    clear: both;
+
+    content: '';
+  }
+}
+.clear {
+  clear: both;
+}
 @import 'stylesheet';
 @import 'new';
 @import 'style_css';
@@ -12,3 +29,93 @@
 @import 'style_007';
 @import 'style_004-1';
 @import 'style_005-1';
+
+.nocode_header_phone {
+  span {
+    font-family: PFDinTextCondProRegular;
+    font-size: 27px;
+    line-height: 1em;
+
+    display: block;
+  }
+}
+#email {
+  .obsudit_but1 {
+    font-size: 18px;
+    line-height: 1em;
+
+    width: 150px;
+    padding: 3px 7px 3px 7px;
+
+    text-decoration: none;
+
+    color: #fff;
+    background: #000 !important;
+  }
+}
+.ul_one {
+  @extend .clearfix;
+}
+#menu1 {
+  ul {
+    display: inline-block;
+
+    list-style: none;
+    li {
+      position: relative;
+
+      display: block;
+      float: left;
+      a {
+        font-family: PFDinTextCondProRegular;
+        font-size: 19px;
+        line-height: 18px;
+
+        display: block;
+
+        height: 39px;
+        padding: 25px 10px 10px 10px;
+
+        text-decoration: none;
+
+        color: #000;
+      }
+      &.current-menu-item,
+      &:hover {
+        a {
+          text-decoration: none;
+
+          background: #ffda00 url(../img/g1.png) repeat-x;
+
+          ursor: pointer;
+        }
+      }
+    }
+  }
+}
+.new_sonata {
+  #next {
+    right: 0;
+
+    background-image: url(../img/next7.png);
+  }
+  #prev,
+  #next {
+    position: absolute;
+    z-index: 12;
+    top: 50%;
+
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+
+    cursor: pointer;
+
+    background-repeat: no-repeat;
+  }
+  #prev {
+    left: 0;
+
+    background-image: url(../img/prev7.png);
+  }
+}
