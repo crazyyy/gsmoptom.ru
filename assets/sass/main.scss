@@ -701,6 +701,9 @@ table {
   line-height: 1em;
 
   color: #fff;
+  a {
+    color: #fff;
+  }
 }
 
 #wrap_header {
@@ -1031,7 +1034,7 @@ table {
   padding-top: 120px;
   padding-bottom: 20px;
 
-  background: url(../img/g1.png) center bottom no-repeat;
+  background: url(../img/g2.png) center bottom no-repeat;
   #bl_preim {
     position: relative;
 
@@ -1072,7 +1075,7 @@ table {
 #wrap_dostavka {
   height: 328px;
 
-  background: #585856 url(../img/g1.png) top center no-repeat;
+  background: #585856 url(../img/map.jpg) top center no-repeat;
   #cont {
     width: 990px;
     margin: 0 auto;
@@ -1091,7 +1094,7 @@ table {
     width: 493px;
     height: 328px;
 
-    background: url(../img/g1.png) -185px bottom no-repeat;
+    background: url(../img/benzovoz.png) -185px bottom no-repeat;
     #txt {
       font-size: 18px;
       line-height: 1.4em;
@@ -1129,16 +1132,13 @@ table {
       -webkit-box-shadow: none;
          -moz-box-shadow: none;
               box-shadow: none;
-
-
     }
     &:active {
       position: relative;
       top: 1px;
 
       border: 0;
-
-              box-shadow: inset 0 8px 8px -9px #3d3b3b;
+      box-shadow: inset 0 8px 8px -9px #3d3b3b;
     }
   }
 }
@@ -2005,18 +2005,20 @@ table {
   font-family: PFDinTextCondProRegular;
   font-size: 19px;
   line-height: 19px;
+
   position: relative;
+
   width: 265px;
   padding: 13px 0 11px 0;
+
   cursor: pointer;
   text-align: center;
+
   border: 0;
   background: #fc0;
-
   &:hover {
     background: #ffd323;
   }
-
   &:active {
     top: 1px;
   }
@@ -2025,8 +2027,10 @@ table {
 .obsuditduo_inp1 {
   font-size: 20px;
   line-height: 20px;
+
   width: 390px;
   padding: 10px;
+
   color: #000;
   border: 2px #ccc solid;
   border-radius: 1px;
@@ -2292,70 +2296,72 @@ table {
 
 .slide_kalina {
   position: relative;
-
   ul {
     margin: 0;
     padding: 0;
+
     list-style-type: none;
   }
-
   #inner {
     overflow: hidden;
-
     ul {
       position: relative;
-      margin: 0;
-      padding: 0;
-
-      li {
-        display: block;
-        margin: 0;
-        padding: 0;
-        float: left;
-      }
 
       width: 99999px;
+      margin: 0;
+      padding: 0;
+      li {
+        display: block;
+        float: left;
+
+        margin: 0;
+        padding: 0;
+      }
     }
   }
-
-  #prev, #next {
+  #prev,
+  #next {
     width: 28px;
     height: 46px;
+
     cursor: pointer;
   }
-
   #prev {
     position: absolute;
     top: 0;
     right: 30px;
-    background: url(../img/shag.png) no-repeat;
-  }
 
+    background: url(../img/prev4.png) no-repeat;
+  }
   #next {
     position: absolute;
     top: 0;
     right: 1px;
-    background: url(../img/shag.png) no-repeat;
-  }
 
+    background: url(../img/next4.png) no-repeat;
+  }
   #shag {
     position: absolute;
     bottom: 10px;
     left: 406px;
+
     width: 210px;
     height: 37px;
-    text-align: center;
 
+    text-align: center;
     span {
       display: inline-block;
+
       width: 12px;
       height: 12px;
       margin-top: 15px;
       margin-left: 5px;
-      cursor: pointer;
-      background: url(../img/shag.png) no-repeat;
 
-      &:hover, &.act {
+      cursor: pointer;
+
+      background: url(../img/shag.png) no-repeat;
+      &:hover,
+      &.act {
         background-position: -12px 0;
       }
     }

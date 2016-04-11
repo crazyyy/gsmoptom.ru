@@ -29,7 +29,7 @@
     <div id="bl_nadstela">
       <div id="bl_zagsite">
         <h1 class="zagmain" title="продажа гсм - опт цены, дизельного топливо оптом и доставка по всей России">Продажа оптом: топливо, дизельное топливо, ГСМ<br> доставка светлых нефтепродуктов по России</h1>
-        <h2 class="zagmain2" style="padding:10px 0 30px 0;text-transform: none;text-shadow:none;">Прямые поставки топливо: <a href="http://www.gsmoptom.ru/toplivo/dizelnoe-toplivo-optom/" style="color:#fff;">дизтопливо</a>,  <a href="http://www.gsmoptom.ru/toplivo/kerosin-optom/" style="color:#fff;">керосин</a>, <a href="http://www.gsmoptom.ru/toplivo/sudovoe-malovyazkoe-toplivo-optom/" style="color:#fff;">смт / печное топливо</a>, от производителя</h2> </div>
+        <h2 class="zagmain2" style="padding:10px 0 30px 0;text-transform: none;text-shadow:none;">Прямые поставки топливо: <a href="http://www.gsmoptom.ru/toplivo/dizelnoe-toplivo-optom/">дизтопливо</a>,  <a href="http://www.gsmoptom.ru/toplivo/kerosin-optom/">керосин</a>, <a href="http://www.gsmoptom.ru/toplivo/sudovoe-malovyazkoe-toplivo-optom/">смт / печное топливо</a>, от производителя</h2> </div>
       <div style="margin: -15px auto 15px auto;">
         <a href="http://www.gsmoptom.ru/rus/on-line-tablo-taneco/"><img src="<?php echo get_template_directory_uri(); ?>/img/tablo-taneco-online2.png" alt="Онлайн табло ТАНЕКО" border="0"></a>
       </div>
@@ -44,7 +44,7 @@
             <div class="zagol">Стоимость нефтепродуктов на <strong style="background: #ffcc00;padding:3px 6px;">4 апреля 2016</strong></div>
             <div class="cat_list">
               <div class="cont">
-                <div id="act" class="block">
+                <div  class="block">
                   Танеко
                   <div class="data">
                     <table border="0" cellpadding="0" cellspacing="0">
@@ -58,7 +58,9 @@
                           <td>&nbsp;</td>
                         </tr>
                       </thead>
+
                       <tbody>
+
                         <tr>
                           <td>
                             <div style="position:relative;"><a href="http://www.gsmoptom.ru/toplivo/sudovoe-malovyazkoe-toplivo-optom/" class="link">ТПБ, вид V</a></div>
@@ -82,169 +84,10 @@
                             <a href="http://www.gsmoptom.ru/file/filemanag/983f859cdd5765a30c651ed172f04ecf.pdf" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/i_doc2.png" style="padding: 0 10px;" alt="Паспорт" title="Паспорт"></a>
                           </td>
                         </tr>
-                        <tr>
-                          <td>
-                            <div style="position:relative;"><a href="http://www.gsmoptom.ru/toplivo/sudovoe-malovyazkoe-toplivo-optom/" class="link">ДГК ЖД</a></div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/sudovoe-malovyazkoe-toplivo-optom/');" style="cursor:pointer;">
-                              26 800 р.
-                            </div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/sudovoe-malovyazkoe-toplivo-optom/');" style="cursor:pointer;">
-                              0.810
-                            </div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/sudovoe-malovyazkoe-toplivo-optom/');" style="cursor:pointer;">21.70 р.
-                            </div>
-                          </td>
-                          <td>
-                            <a href="http://www.gsmoptom.ru/file/filemanag/979284371b7f26e459b8cc3f164ed5b1.jpg" target="_blank" rel="lightbox"><img src="<?php echo get_template_directory_uri(); ?>/img/i_photo.png" alt="Фото" title="Фото"></a>
-                            <a href="http://www.gsmoptom.ru/file/filemanag/1cc3a6f7d39ecf7dfee472b7d288a47a.pdf" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/i_doc2.png" style="padding: 0 10px;" alt="Паспорт" title="Паспорт"></a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <div style="position:relative;"><a href="http://www.gsmoptom.ru/toplivo/kerosin-optom/" class="link">Керосин КТ-1</a></div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/kerosin-optom/');" style="cursor:pointer;">
-                              27 000 р.
-                            </div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/kerosin-optom/');" style="cursor:pointer;">
-                              0.808
-                            </div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/kerosin-optom/');" style="cursor:pointer;">21.81 р.
-                            </div>
-                          </td>
-                          <td>
-                            <a href="http://www.gsmoptom.ru/file/filemanag/eb25e2a7d372cb14487e667cdb68c9eb.jpg" target="_blank" rel="lightbox"><img src="<?php echo get_template_directory_uri(); ?>/img/i_photo.png" alt="Фото" title="Фото"></a>
-                            <a href="http://www.gsmoptom.ru/file/filemanag/5be542a51efd18d42a229135fde72d32.pdf" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/i_doc2.png" style="padding: 0 10px;" alt="Паспорт" title="Паспорт"></a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <div style="position:relative;"><a href="http://www.gsmoptom.ru/toplivo/dizelnoe-toplivo-optom/" class="link">ДТ сорт F авто</a></div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/dizelnoe-toplivo-optom/');" style="cursor:pointer;">
-                              31 000 р.
-                            </div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/dizelnoe-toplivo-optom/');" style="cursor:pointer;">
-                              0.804
-                            </div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/dizelnoe-toplivo-optom/');" style="cursor:pointer;">24.92 р.
-                            </div>
-                          </td>
-                          <td>
-                            <a href="http://www.gsmoptom.ru/file/filemanag/4de025eea51d7a84fd03a39054c56794.jpg" target="_blank" rel="lightbox"><img src="<?php echo get_template_directory_uri(); ?>/img/i_photo.png" alt="Фото" title="Фото"></a>
-                            <a href="http://www.gsmoptom.ru/file/filemanag/d59aff48e77ccc34c92eba6dd60460df.pdf" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/i_doc2.png" style="padding: 0 10px;" alt="Паспорт" title="Паспорт"></a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <div style="position:relative;"><a href="http://www.gsmoptom.ru/toplivo/dizelnoe-toplivo-optom/" class="link">ДТ сорт E ЖД</a></div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/dizelnoe-toplivo-optom/');" style="cursor:pointer;">
-                              30 300 р.
-                            </div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/dizelnoe-toplivo-optom/');" style="cursor:pointer;">
-                              0.801
-                            </div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/dizelnoe-toplivo-optom/');" style="cursor:pointer;">24.27 р.
-                            </div>
-                          </td>
-                          <td>
-                            <a href="http://www.gsmoptom.ru/file/filemanag/3d7a22fb1c7a6036e4b433bd997fee89.jpg" target="_blank" rel="lightbox"><img src="<?php echo get_template_directory_uri(); ?>/img/i_photo.png" alt="Фото" title="Фото"></a>
-                            <a href="http://www.gsmoptom.ru/file/filemanag/0887ec021da2ba607be3ffc6c549e16a.pdf" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/i_doc2.png" style="padding: 0 10px;" alt="Паспорт" title="Паспорт"></a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <div style="position:relative;"><a href="http://www.gsmoptom.ru/toplivo/dizelnoe-toplivo-optom/" class="link">ДТ сорт С ЖД</a></div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/dizelnoe-toplivo-optom/');" style="cursor:pointer;">
-                              30 000 р.
-                            </div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/dizelnoe-toplivo-optom/');" style="cursor:pointer;">
-                              0.809
-                            </div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/dizelnoe-toplivo-optom/');" style="cursor:pointer;">24.27 р.
-                            </div>
-                          </td>
-                          <td>
-                            <a href="http://www.gsmoptom.ru/file/filemanag/1a9a60013e86aef47715d820522850eb.jpg" target="_blank" rel="lightbox"><img src="<?php echo get_template_directory_uri(); ?>/img/i_photo.png" alt="Фото" title="Фото"></a>
-                            <a href="http://www.gsmoptom.ru/file/filemanag/78ac7932f82f9ba11df36fc0442de2cd.pdf" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/i_doc2.png" style="padding: 0 10px;" alt="Паспорт" title="Паспорт"></a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <div style="position:relative;"><a href="http://www.gsmoptom.ru/toplivo/kerosin-optom/" class="link">Керосин КТ-1 ЖД</a></div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/kerosin-optom/');" style="cursor:pointer;">
-                              26 800 р.
-                            </div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/kerosin-optom/');" style="cursor:pointer;">
-                              0.808
-                            </div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/kerosin-optom/');" style="cursor:pointer;">21.65 р.
-                            </div>
-                          </td>
-                          <td>
-                            <a href="http://www.gsmoptom.ru/file/filemanag/078723387622011ee132b38bfd0646ab.jpg" target="_blank" rel="lightbox"><img src="<?php echo get_template_directory_uri(); ?>/img/i_photo.png" alt="Фото" title="Фото"></a>
-                            <a href="http://www.gsmoptom.ru/file/filemanag/eda83011c9cd0e46424e5106393edd3e.pdf" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/i_doc2.png" style="padding: 0 10px;" alt="Паспорт" title="Паспорт"></a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <div style="position:relative;"><a href="http://www.gsmoptom.ru/toplivo/dizelnoe-toplivo-optom/" class="link">ДТ сорт F ЖД </a></div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/dizelnoe-toplivo-optom/');" style="cursor:pointer;">
-                              30 500 р.
-                            </div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/dizelnoe-toplivo-optom/');" style="cursor:pointer;">
-                              0.808
-                            </div>
-                          </td>
-                          <td>
-                            <div onclick="Get('/toplivo/dizelnoe-toplivo-optom/');" style="cursor:pointer;">24.64 р.
-                            </div>
-                          </td>
-                          <td>
-                            <a href="http://www.gsmoptom.ru/file/filemanag/b254bf44a2d6fb52998f8e72ace419c7.jpg" target="_blank" rel="lightbox"><img src="<?php echo get_template_directory_uri(); ?>/img/i_photo.png" alt="Фото" title="Фото"></a>
-                            <a href="http://www.gsmoptom.ru/file/filemanag/20d07c8023ed7e61aac9e6594fab51a4.pdf" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/i_doc2.png" style="padding: 0 10px;" alt="Паспорт" title="Паспорт"></a>
-                          </td>
-                        </tr>
+
                       </tbody>
                     </table>
+
                     <div class="text1">
                       <br> Цены представлены без доставки, <a href="http://www.gsmoptom.ru/rus/dostavka-calc/">доставку можно рассчитать</a> отдельно.
                     </div>
@@ -254,6 +97,7 @@
                     <div class="image"><?php echo get_template_directory_uri(); ?>/img/taneco.jpg</div>
                   </div>
                 </div>
+
                 <div id="" class="block">
                   ТАИФ-НК
                   <div class="data">
@@ -1370,103 +1214,4 @@
       $('#obsudit_form1 input').attr('autocomplete', 'off');
     </script>
 
-    <div style="height:50px;">&nbsp;</div>
-
-    <div id="wrap_footer">
-      <div id="bl_footer">
-        <div class="foot_menu">
-          <ul>
-            <li id="act"><a href="http://www.gsmoptom.ru/">Главная</a></li>
-            <li><a href="http://www.gsmoptom.ru/rus/about/">О компании</a></li>
-            <li><a href="http://www.gsmoptom.ru/toplivo/">Продукция</a></li>
-            <li><a href="http://www.gsmoptom.ru/rus/dostavka-calc/">Расчет доставки</a></li>
-            <li><a href="http://www.gsmoptom.ru/rus/doc/">Документы</a></li>
-            <li><a href="http://www.gsmoptom.ru/rus/partners/">Партнеры</a></li>
-            <li><a href="http://www.gsmoptom.ru/news/">Новости</a></li>
-            <li><a href="http://www.gsmoptom.ru/rus/contact/">Контакты</a></li>
-            <li><a href="http://www.gsmoptom.ru/rus/help/">Претензии</a></li>
-            <li><a href="http://www.gsmoptom.ru/faq/">Вопрос-ответ</a></li>
-          </ul>
-        </div>
-        <div class="nocode_phone_bottom" style="margin: 20px 0 -30px 0;"><span style="display:block;font-size: 32px; font-family: PFDinTextCondProRegular; line-height: 1em;color:#fff;">
-+7 (8552) 91-01-05</span></div>
-
-        <div id="name_footer">© 2006–2015, «НЕФТЕПРОДУКТТРЕЙД»</div>
-        <div id="copy_footer">
-          Обращаем ваше внимание на то, что данный Интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса Российской Федерации.
-        </div>
-        <div class="counter">
-          <div style="float:left;width:300px;">
-
-
-
-          </div>
-          <style>
-            <!-- .leli {
-              color: #5f6469;
-              font-size: 11px;
-            }
-
-            a.leli:link,
-            a.leli:visited {
-              color: #5f6469;
-              font-size: 12px;
-              line-height: 1.3em;
-              text-decoration: none;
-            }
-
-            a.leli:active,
-            a.leli:hover {
-              color: #717f8a;
-            }
-
-            .leli img {
-              padding: 0;
-              margin: 0;
-            }
-
-            -->
-          </style>
-          <div style="float:right;width:300px;">
-            <div class="leli">
-              <div style="float:left;width: 150px; line-height: 1em;text-align:right; padding-right:5px;padding-bottom:7px;"><a class="leli" href="http://www.leli.ru/" target="_blank">Разработка сайта</a>
-                <br> <a class="leli" href="http://www.leli.ru/" target="_blank">Интернет-студия LELI</a></div>
-              <div style="float:left;width: 90px; text-align:left;padding-top:5px;">
-                <a href="http://www.leli.ru/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/wwwleli.gif" alt="Интернет студия LELI, разработка сайтов, раскрутка сайтов" border="0" height="20" width="60"></a>
-                <div style="padding-top:0px;font-size:10px;line-height:1em;margin-top:-5px;">2015</div>
-              </div>
-              <div style="clear: both;">&nbsp;</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <div style="display: none;" id="lightboxOverlay" class="lightboxOverlay"></div>
-  <div style="display: none;" id="lightbox" class="lightbox">
-    <div class="lb-outerContainer">
-      <div class="lb-container"><img class="lb-image" src="">
-        <div class="lb-nav">
-          <a class="lb-prev" href=""></a>
-          <a class="lb-next" href=""></a>
-        </div>
-        <div class="lb-loader">
-          <a class="lb-cancel"></a>
-        </div>
-      </div>
-    </div>
-    <div class="lb-dataContainer">
-      <div class="lb-data">
-        <div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div>
-        <div class="lb-closeContainer">
-          <a class="lb-close"></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</body>
-
-</html>
+<?php get_footer(); ?>
