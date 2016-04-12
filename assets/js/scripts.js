@@ -22,3 +22,47 @@ if (typeof jQuery == 'undefined') {
 }
 // Place any jQuery/helper plugins in here.
 
+function faq_add(par) {
+  parent1 = '#faq_add';
+  parent2 = '#faq_add #addtop';
+
+  if (par == 'show') {
+    $(parent2).find('button').animate({
+      'opacity': '0.5'
+    }, function() {});
+    $(parent1).find('#form').slideDown('500');
+    $(parent1).find('#pip').show();
+
+    $(parent1).addClass('act');
+  } else if (par == 'hide') {
+    $(parent2).find('button').animate({
+      'opacity': '1'
+    }, function() {});
+    $(parent1).find('#form').hide();
+    $(parent1).find('#pip').hide();
+
+    $(parent1).removeClass('act');
+  }
+}
+
+$('#faq_add #addtop button').on('click', function() {
+  parent1 = $(this).parent().parent();
+  parent2 = $(this).parent();
+  if (parent1.attr('class') != 'act') {
+    faq_add('show');
+  }
+});
+$('#faq_add #addtop #pip').on('click', function() {
+  parent1 = $(this).parent().parent();
+  parent2 = $(this).parent();
+
+  faq_add('hide');
+});
+
+clas = $('#faq_add').attr('class');
+//alert(clas);
+if (clas == 'act') {
+  faq_add('show');
+} else {
+  faq_add('hide');
+}

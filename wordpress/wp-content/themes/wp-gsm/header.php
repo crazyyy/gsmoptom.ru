@@ -44,12 +44,9 @@
   <script src="<?php echo get_template_directory_uri(); ?>/js/script_003.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/script_008.js"></script>
 
-
-
 </head>
 
 <body>
-
   <div style="min-height:100%;background:#f2f3f3 url(<?php echo get_template_directory_uri(); ?>/img/f_top.jpg) top center;">
 
     <div id="wrap_header">

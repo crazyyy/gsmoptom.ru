@@ -1297,6 +1297,7 @@ table {
 
 #wrap_footer {
   min-height: 330px;
+  margin-top: 50px;
 
   background: #2e2e2e;
   #bl_footer {
@@ -2525,4 +2526,176 @@ table {
 /* fixes potential theme css conflict */
 .acf-map img {
   max-width: inherit !important;
+}
+.nocode_phone_bottom {
+  margin: 20px 0 -30px 0;
+  span {
+    font-family: PFDinTextCondProRegular;
+    font-size: 32px;
+    line-height: 1em;
+
+    display: block;
+
+    color: #fff;
+  }
+}
+#faq_add {
+  padding-bottom: 35px;
+  #addtop {
+    position: relative;
+    button {
+      font-size: 17px;
+      font-weight: bold;
+      line-height: 31px;
+
+      position: relative;
+
+      height: 31px;
+      padding: 0 30px;
+
+      cursor: pointer;
+      text-align: center;
+
+      color: #333;
+      border: 1px #fa2 solid;
+      border-radius: 7px;
+      outline: 0;
+      background-color: #ffec64;
+      background-image: url(../img/but_pukup2_bg.png);
+    }
+    #pip {
+      font-size: 16px;
+      line-height: 15px;
+
+      position: absolute;
+      top: 7px;
+      left: 207px;
+
+      display: none;
+
+      cursor: pointer;
+
+      color: #333;
+      border-bottom: 1px #666 dashed;
+    }
+  }
+  #form {
+    display: none;
+
+    padding-top: 20px;
+  }
+  table {
+    td {
+      font-size: 17px;
+      line-height: 14px;
+
+      vertical-align: top;
+
+      color: #000;
+    }
+    .td1 {
+      width: 120px;
+      padding-top: 10px;
+
+      text-align: right;
+    }
+    .td2 {
+      padding-left: 15px;
+    }
+  }
+  .comm {
+    font-size: 14px;
+
+    padding-top: 4px;
+
+    color: #666;
+  }
+  .inp1 {
+    font-size: 17px;
+    line-height: 16px;
+
+    width: 400px;
+    padding: 7px 5px;
+
+    color: #000;
+    border: 1px #999 solid;
+  }
+  .tarea1 {
+    font-family: PT Sans;
+    font-size: 17px;
+    line-height: 18px;
+
+    width: 400px;
+    height: 100px;
+    padding: 7px 5px;
+
+    color: #000;
+    border: 1px #999 solid;
+  }
+  .but1 {
+    font-size: 17px;
+
+    position: relative;
+
+    padding: 5px 20px;
+
+    outline: 0;
+  }
+  .but1:active {
+    top: 1px;
+  }
+}
+
+#faq_add.act {
+  #addtop {
+    button {
+      cursor: default;
+    }
+    #pip {
+      display: block;
+    }
+  }
+}
+
+#faq_add.act #addtop button:active {
+  top: 0;
+}
+#faq_list1 {
+  font-size: 18px;
+  line-height: 1.4em;
+
+  margin-top: 20px;
+  .block {
+    margin-bottom: 50px;
+    padding: 10px;
+
+    border-top: 2px #777 solid;
+    background: #f0f0f0;
+  }
+  .date {
+    font-size: 14px;
+
+    float: right;
+
+    color: #999;
+  }
+  .msg {
+    padding-top: 5px;
+  }
+  .otvet {
+    margin-top: 8px;
+    padding-left: 40px;
+  }
+  .name {
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: capitalize;
+
+    color: #333;
+  }
+  .z {
+    font-size: 15px;
+
+    color: #1e74b8;
+  }
 }
