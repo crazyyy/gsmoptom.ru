@@ -1,0 +1,30 @@
+.city_list {
+  margin-top: 50px;
+
+  .zagol {
+    font-size: 15px;
+    line-height: 22px;
+    color: #000;
+  }
+
+  .list .block {
+    display: inline-block;
+
+    &:after {
+      content: ', \a0';
+    }
+
+    &:last-child:after {
+      content: '';
+    }
+
+    a {
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    &#act a {
+      font-weight: bold;
+    }
+  }
+}

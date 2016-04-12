@@ -273,8 +273,10 @@ $('#slide_tiguan_2').slideTiguan({
   divHeight: 430, //высота блока
   effDirect: 'smena', //варианты перехода, значения (horizont,vertical,smena)
   effWho: 'za', //варианты захода изображения, значения (za,do)
-  effSpeed: 500, //время анимации в миллисекундах
-  timer: 2000, //время между переходами в миллисекундах, если указать 0 таймер отключается
+  effSpeed:1000,//время анимации в миллисекундах
+  timer:4000,//время между переходами в миллисекундах, если указать 0 таймер отключается
   boolStrel: 1, //отображать стрелки, значения (0,1)
   boolShag: 0, //отобрать шаги переходов, значения (0,1)
 });
+var saitobaza_hide_slide = $('.saitobaza_hide_slide').html();
+$('.saitobaza_show_slide').html(saitobaza_hide_slide)
