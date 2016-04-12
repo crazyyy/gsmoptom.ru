@@ -30,6 +30,7 @@
 
   <script src="<?php echo get_template_directory_uri(); ?>/js/vendor.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/jquery_easing.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery_easing_coomp.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/jquery_color_animations.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/index-js.js"></script>
