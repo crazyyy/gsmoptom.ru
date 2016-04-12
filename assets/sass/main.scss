@@ -2985,3 +2985,131 @@ table {
 .saitobaza_hide_slide {
   display: none;
 }
+.product_list {
+  /*margin-left:50px;*/
+}
+
+.product_list > .block {
+  margin-top: 65px;
+}
+
+.product_list > .block:first-child {
+  margin-top: 0;
+}
+
+.product_list > .block > a {
+  font-family: PFDinTextCondProRegular;
+  font-size: 30px;
+  line-height: 32px;
+
+  display: block;
+
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+  color: #000;
+}
+.city_list_footer {
+  margin-top: 70px;
+}
+
+.city_list_footer .container {
+  padding: 20px 0;
+
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 1px 3px #cecece;
+}
+
+.city_list_footer .zagol {
+  font-family: PFDinTextCondProRegular;
+  font-size: 30px;
+  line-height: 32px;
+
+  display: block;
+
+  padding-bottom: 20px;
+  padding-left: 40px;
+
+  color: #000;
+}
+
+.city_list_footer .container:last-child {
+  padding-bottom: 0;
+}
+
+.city_list_footer table {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.city_list_footer table td {
+  font-size: 14px;
+  line-height: 17px;
+
+  padding: 5px;
+
+  color: #000;
+  border-top: 1px solid #c4c4c4;
+  background: #fff;
+}
+
+.city_list_footer table td:nth-child(2) {
+  width: 370px;
+}
+
+.city_list_footer table td:nth-child(3) {
+  width: 370px;
+}
+
+.city_list_footer table thead td {
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 21px;
+
+  padding: 20px 10px;
+
+  text-align: center;
+
+  color: #000;
+  border-top: 0;
+  background: #ededed;
+}
+
+.city_list_footer table tbody td:nth-child(1) {
+  font-size: 20px;
+  line-height: 22px;
+
+  padding-left: 15px;
+
+  text-align: left;
+}
+
+.city_list_footer table tbody td:nth-child(2) {
+  padding-left: 20px;
+}
+
+.city_list_footer table tbody td:nth-child(3) {
+  padding-left: 20px;
+}
+.saitobaza_blockers {
+  margin-bottom: 50px;
+  a {
+    font-family: PFDinTextCondProRegular;
+    font-size: 30px;
+    line-height: 32px;
+
+
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    color: #000;
+  }
+  .namepod {
+    a {
+      font-size: 15px;
+      line-height: 17px;
+      display: inline;
+    }
+  }
+}
