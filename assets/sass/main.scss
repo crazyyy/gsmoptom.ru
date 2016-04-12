@@ -2690,6 +2690,7 @@ table {
   .name {
     font-size: 19px;
     font-weight: bold;
+
     text-transform: capitalize;
 
     color: #333;
@@ -2699,4 +2700,11 @@ table {
 
     color: #1e74b8;
   }
+}
+.saitobaza_claims {
+  padding: 0 40px 0 0;
+
+  background-image: url(../img/claims.jpg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
