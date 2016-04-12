@@ -68,41 +68,40 @@
           </div>
         </div>
 
-        <div id="faq_list1">
-          <div class="block">
-            <div>
-              <div class="date">22.12.2015 - 08:23:48</div>
-              <span class="name">Обросимов александр михайлович</span>
-              <div class="clear"></div>
-            </div>
-            <div class="msg">
-              <span class="z">Вопрос:</span>&nbsp; Какое время действует заявка на погрузку
-            </div>
-            <div class="otvet">
-              <span class="z">Ответ:</span>&nbsp; Заявка действует до 12:00 следующего дня
-            </div>
-          </div>
-          <div class="block">
-            <div>
-              <div class="date">16.07.2015 - 04:34:51</div>
-              <span class="name">Евдокимов Андрей Геннадьевич</span>
-              <div class="clear"></div>
-            </div>
-            <div class="msg">
-              <span class="z">Вопрос:</span>&nbsp; Здравствуйте! Возможна ли доставка СМТ и ДТ в ж/д цистернах на ст. Находка ДВЖД. Спасибо.
-            </div>
-            <div class="otvet">
-              <span class="z">Ответ:</span>&nbsp; Здравствуйте! Да возможна, жд доставка составит 11500 рублей на тонну
-            </div>
-          </div>
-        </div>
-        <br>
-        <br>
-        <br>
+        <?php if( have_rows('faq') ): ?>
+          <div id="faq_list1">
+
+          <?php while( have_rows('faq') ): the_row();
+
+            // vars
+            $date = get_field('date', false, false);
+            $date = new DateTime($date);
+            $name = get_sub_field('name');
+            $question = get_sub_field('question');
+            $answer = get_sub_field('answer');
+
+            ?>
+
+              <div class="block">
+                <div class="clearfix">
+                  <div class="date"><?php echo $date->format('j M Y'); ?></div>
+                  <span class="name"><?php echo $name; ?></span>
+                </div>
+                <div class="msg">
+                  <span class="z">Вопрос:</span>&nbsp; <?php echo $question; ?>
+                </div>
+                <div class="otvet">
+                  <span class="z">Ответ:</span>&nbsp; <?php echo $answer; ?>
+                </div>
+              </div>
+
+            <?php endwhile; ?>
+
+          </div><!-- faq_list1 -->
+        <?php endif; ?>
+
       </div>
     </div>
   </div>
-
-
 
 <?php get_footer(); ?>
