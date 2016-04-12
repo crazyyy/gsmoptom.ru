@@ -1,10 +1,20 @@
 <?php get_header(); ?>
-  <article>
+  <div class="saitobaza_mt30">
 
-    <h1 class="cat-title inner-title"><?php _e( 'Categories for', 'wpeasy' ); the_category(', '); ?></h1>
-    <?php get_template_part('loop'); ?>
-    <?php get_template_part('pagination'); ?>
+    <?php if (function_exists('easy_breadcrumbs')) easy_breadcrumbs(); ?>
 
-  </article>
-<?php get_sidebar(); ?>
+    <h1 class="saitobaza_cat_title">Новости</h1>
+
+    <div style="padding-top:30px;">
+      <div class="osntext">
+        <div id="news_list3">
+
+          <?php get_template_part('loop'); ?>
+
+        </div><!-- news_list3 -->
+        <?php get_template_part('pagination'); ?>
+      </div>
+    </div>
+
+  </div><!-- saitobaza_mt30 -->
 <?php get_footer(); ?>

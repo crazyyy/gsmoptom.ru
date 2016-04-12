@@ -69,6 +69,10 @@
 
   </div>
   <?php wp_footer(); ?>
+  <?php if ( is_page_template('page-contacts.php') ) { ?>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/google-maps.js"></script>
+  <?php } ?>
 
 </body>
 </html>

@@ -1787,6 +1787,7 @@ table {
 }
 
 #news_list3 {
+  margin-bottom: 50px;
   .img {
     float: left;
     overflow: hidden;
@@ -2413,12 +2414,13 @@ table {
         display: block;
 
         height: 39px;
-        padding: 25px 10px 10px 10px;
+        padding: 25px 16px 10px 17px;
 
         text-decoration: none;
 
         color: #000;
       }
+      &.current-post-ancestor,
       &.current-menu-item,
       &:hover {
         a {
@@ -2469,4 +2471,58 @@ table {
   .tablo3 {
     background: url('../img/tablo3.png') center top no-repeat;
   }
+}
+
+#news_endten {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  table td {
+    vertical-align: top;
+  }
+  .td1 {
+    width: 120px;
+
+    text-align: right;
+  }
+  .td2 {
+    padding-left: 20px;
+  }
+  .hr {
+    line-height: 1px;
+
+    height: 1px;
+    margin-bottom: 15px;
+
+    background: #d9d9d9;
+  }
+}
+.saitobaza_cat_title {
+  a {
+    font-family: pfdintextcondproregular;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.1em;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #252525;
+  }
+}
+.saitobaza_mt30 {
+  width: 990px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+.acf-map {
+  width: 100%;
+  height: 400px;
+  margin: 20px 0;
+
+  border: #ccc solid 1px;
+}
+
+/* fixes potential theme css conflict */
+.acf-map img {
+  max-width: inherit !important;
 }
