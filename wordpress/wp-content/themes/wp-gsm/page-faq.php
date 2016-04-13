@@ -12,59 +12,7 @@
             <div style="display: none;" id="pip">скрыть</div>
           </div>
           <div style="display: none;" id="form">
-            <form method="post">
-              <table border="0" cellpadding="0" cellspacing="4">
-                <tbody>
-                  <tr>
-                    <td class="td1">Ф.И.О.: <span class="zv">*</span></td>
-                    <td class="td2">
-                      <input name="fio" class="inp1">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="td1">Город:</td>
-                    <td class="td2">
-                      <input name="city" class="inp1">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td colspan="2" class="hr"></td>
-                  </tr>
-                  <tr>
-                    <td class="td1">
-                      Ваш e-mail: <span class="zv">*</span>
-                    </td>
-                    <td class="td2">
-                      <input name="email" class="inp1">
-                      <div class="comm">
-                        *Ваш емайл нигде не будет распространяется и афишироваться,
-                        <br> на эту почту придёт уведомление об ответе.
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td colspan="2" class="hr"></td>
-                  </tr>
-                  <tr>
-                    <td class="td1">
-                      Ваш вопрос: <span class="zv">*</span>
-                    </td>
-                    <td class="td2">
-                      <textarea name="msg" class="tarea1"></textarea>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td colspan="2" class="hr"></td>
-                  </tr>
-                  <tr>
-                    <td class="td1"></td>
-                    <td class="td2">
-                      <button type="submit" class="but1">Добавить</button>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </form>
+            <?php echo do_shortcode('[contact-form-7 id="108" title="FAQ"]'); ?>
           </div>
         </div>
 
@@ -102,6 +50,6 @@
 
       </div>
     </div>
-  </div>
+  </div><!-- saitobaza_mt30 -->
 
 <?php get_footer(); ?>

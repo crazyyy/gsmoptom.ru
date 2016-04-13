@@ -280,3 +280,13 @@ $('#slide_tiguan_2').slideTiguan({
 });
 var saitobaza_hide_slide = $('.saitobaza_hide_slide').html();
 $('.saitobaza_show_slide').html(saitobaza_hide_slide)
+
+$('.modal-form').on('click', function(){
+  $('#dialog_zanoves').fadeIn('400');
+  $('#dialog_bg').fadeIn('400');
+})
+$('.modal-close').on('click', function(){
+  alert(' ');
+  $('#dialog_zanoves').fadeOut('400');
+  $('#dialog_bg').fadeOut('400');
+})

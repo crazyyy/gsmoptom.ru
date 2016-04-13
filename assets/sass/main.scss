@@ -178,6 +178,7 @@ img {
 
 #dialog_3 {
   position: absolute;
+  top: 50px;
   left: 50%;
   #border {
     padding: 26px;
@@ -187,6 +188,32 @@ img {
   .label {
     position: relative;
     z-index: 100000;
+
+    width: 600px;
+    min-height: 100%;
+    margin-left: -300px;
+    padding: 10px;
+  }
+  .label-border {
+    position: absolute;
+    z-index: 110000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    opacity: .2;
+    border-radius: 5px;
+    background: #fff;
+  }
+  #bg {
+    position: relative;
+    z-index: 120000;
+
+    background: #2e2e2e;
   }
   #close {
     position: absolute;
@@ -206,6 +233,10 @@ img {
   }
   .data {
     overflow: hidden;
+
+    height: auto !important;
+    height: 130px;
+    min-height: 130px;
   }
   #header {
     padding: 22px;
@@ -223,6 +254,27 @@ img {
       font-size: 15px;
 
       color: #5b5b5b;
+    }
+  }
+  #dialogclass {
+    .h6 {
+      font-size: 36px;
+      line-height: 40px;
+
+      text-align: center;
+      text-transform: uppercase;
+
+      color: #fff;
+    }
+    .h5 {
+      font-size: 22px;
+      line-height: 26px;
+
+      margin-top: 12px;
+
+      text-align: center;
+
+      color: #fff;
     }
   }
 }
@@ -3111,5 +3163,68 @@ table {
 
       display: inline;
     }
+  }
+}
+
+#dialogclass * {
+  font-family: PFDinTextCondProRegular;
+}
+#dialogclass {
+  font-size: 15px;
+
+  padding-top: 40px;
+
+  color: #202020;
+  .zv {
+    color: #adadad;
+  }
+  table {
+    td {
+      padding: 7px 5px;
+
+      vertical-align: top;
+
+      color: #fff;
+    }
+    .td1 {
+      font-size: 18px;
+
+      width: 130px;
+      padding-top: 20px;
+
+      text-align: right;
+
+      color: #999;
+      .td2 {
+        padding-left: 10px;
+      }
+    }
+  }
+}
+
+#dialogclass table tr.err input {
+  border: 2px solid #f00 !important;
+  background: #f4cdcd;
+}
+#dialog_zanoves {
+  display: none;
+}
+#dialog_bg {
+  display: none;
+}
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+
+  width: 30px;
+  height: 30px;
+
+  cursor: pointer;
+  cursor: pointer;
+
+  background: url(../img/dialog_close2.png) no-repeat;
+  &:hover {
+    opacity: .8;
   }
 }
