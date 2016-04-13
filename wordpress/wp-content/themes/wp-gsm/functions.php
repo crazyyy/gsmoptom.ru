@@ -659,13 +659,13 @@ add_action( 'init', 'post_type_product' );
 function post_type_product() {
 
   $labels = array(
-    'name'=> 'Products',
-    'singular_name' => 'Products',
-    'add_new' => 'Add',
-    'add_new_item' => 'Add',
+    'name'=> 'Продукция',
+    'singular_name' => 'Продукция',
+    'add_new' => 'Добавить',
+    'add_new_item' => 'Добавить',
     'edit' => 'Edit',
     'edit_item' => 'Edit',
-    'new-item' => 'Add',
+    'new-item' => 'Добавить',
     'view' => 'View',
     'view_item' => 'View',
     'search_items' => 'Search',
@@ -699,7 +699,7 @@ add_action( 'init', 'taxonomies_category', 0 );
 function taxonomies_category() {
   // Add new taxonomy, make it hierarchical (like categories)
   $labels = array(
-    'name'              => 'Categories',
+    'name'              => 'Рубрика',
     'singular_name'     => 'Category',
     'search_items'      => 'Search',
     'all_items'         => 'All',
@@ -707,9 +707,9 @@ function taxonomies_category() {
     'parent_item_colon' => 'Parent',
     'edit_item'         => 'Edit',
     'update_item'       => 'Update',
-    'add_new_item'      => 'Add',
-    'new_item_name'     => 'Add',
-    'menu_name'         => 'Categories',
+    'add_new_item'      => 'Добавить',
+    'new_item_name'     => 'Добавить',
+    'menu_name'         => 'Рубрики',
   );
 
   $args = array(
@@ -725,7 +725,7 @@ function taxonomies_category() {
 
   // Add new taxonomy, NOT hierarchical (like tags)
   $labels = array(
-    'name'                       => 'Manufactur',
+    'name'                       => 'Производитель',
     'search_items'               => 'Search',
     'popular_items'              => 'Popular',
     'all_items'                  => 'All',
@@ -733,13 +733,13 @@ function taxonomies_category() {
     'parent_item_colon'          => null,
     'edit_item'                  => 'Edit',
     'update_item'                => 'Update',
-    'add_new_item'               => 'Add',
+    'add_new_item'               => 'Добавить',
     'new_item_name'              => 'New',
     'separate_items_with_commas' => 'Separate items with comas',
     'add_or_remove_items'        => 'Add or remove',
     'choose_from_most_used'      => 'Choose from the most used',
     'not_found'                  => 'No found.',
-    'menu_name'                  => 'Manufactur',
+    'menu_name'                  => 'Производитель',
   );
 
   $args = array(
