@@ -279,14 +279,24 @@ $('#slide_tiguan_2').slideTiguan({
   boolShag: 0, //отобрать шаги переходов, значения (0,1)
 });
 var saitobaza_hide_slide = $('.saitobaza_hide_slide').html();
-$('.saitobaza_show_slide').html(saitobaza_hide_slide)
+$('.saitobaza_show_slide').html(saitobaza_hide_slide);
 
 $('.modal-form').on('click', function(){
   $('#dialog_zanoves').fadeIn('400');
   $('#dialog_bg').fadeIn('400');
-})
-$('.modal-close').on('click', function(){
-  alert(' ');
-  $('#dialog_zanoves').fadeOut('400');
-  $('#dialog_bg').fadeOut('400');
-})
+
+  $('.modal-close').on('click', function(){
+    $('#dialog_zanoves').fadeOut('400');
+    $('#dialog_bg').fadeOut('400');
+  });
+
+});
+
+$('#slide_kalina_1').slideKalina({
+  Width: 493, //ширина блока
+  Height: 120, //высота блока
+  timer: 5000, //время между переходами в миллисекундах, если указать 0 таймер отключается
+  boolStrel: 1, //отображать стрелки вперед и назад, значения (0,1)
+  boolShag: 0, //отображать шаги переходов, значения (0,1)
+});
+

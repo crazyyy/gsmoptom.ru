@@ -4,7 +4,7 @@
 2. Почти все ссылки переходят с главной на сайт донор. Нвости и т.п. т.е. они не на нашем сейчас.
 //
 3. Раздел претензия не работает.
-// 
+// ++
 4. Не понял где админится вопрос ответ
 // Страница вопрос-ответ, вопросы будут приходить к вам на почту, а вы уже https://monosnap.com/file/BryYY5AuIaP921U7wgF1i0XeRbwWeM.png
 5. Баннер Taneco надо убрать.
@@ -23,5 +23,11 @@
 
 
 
-
+faq
 <table border="0" cellpadding="0" cellspacing="4"><tbody><tr><td class="td1">Ф.И.О.: <span class="zv">*</span></td><td class="td2">[text fio id:fio class:inp1]</td></tr><tr><td class="td1">Город:</td><td class="td2">[text city id:city class:inp1]</td></tr><tr><td colspan="2" class="hr"></td></tr><tr><td class="td1">Ваш e-mail: <span class="zv">*</span></td><td class="td2">[text email id:email class:inp1]<div class="comm">*Ваш емайл нигде не будет распространяется и афишироваться,<br> на эту почту придёт уведомление об ответе.</div></td></tr><tr><td colspan="2" class="hr"></td></tr><tr><td class="td1">Ваш вопрос: <span class="zv">*</span></td><td class="td2">[textarea msg id:msg class:tarea1]</td></tr><tr><td colspan="2" class="hr"></td></tr><tr><td class="td1"></td><td class="td2"><button type="submit" class="but1">Добавить</button></td></tr></tbody></table>
+
+claims
+<table cellpadding="0" cellspacing="5" border="0"><tr class=""><td class="td1">Как вас зовут: <span class="zv">*</span></td><td class="td2">[text name id:name class:obsuditduo_inp1]</td></tr><tr><td class="td1">E-mail:</td><td class="td2">[text email id:email class:obsuditduo_inp1]</td></tr><tr class=""><td class="td1">Телефон: <span class="zv">*</span></td><td class="td2">[text tel id:tel class:obsuditduo_inp1]</td></tr><tr class=""><td class="td1">Компания: <span class="zv">*</span></td><td class="td2">[text company id:company class:obsuditduo_inp1]</td></tr><tr><td class="td1">Сообщение: </td><td class="td2">[textarea primech id:primech class:obsuditduo_inp1]</td></tr><tr><td class="td1">&nbsp;</td><td class="td2"><div style="padding-top:20px;">[submit class:obsuditduo_but1 "Отправить"]</div></td></tr></table>
+
+home
+<table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td colspan="2">[text name id:name class:inp1 placeholder "Как вас зовут"]</td></tr><tr><td class="w372">[text email id:email class:inp1 placeholder "E-mail"]</td><td class="w372">[text tel id:tel class:inp1 placeholder "Контактный телефон"]</td></tr><tr><td colspan="2">[text company id:company class:inp1 placeholder "Компания"]</td></tr><tr><td colspan="2"><div style="padding-top:20px;padding-left:10px;">&nbsp;&nbsp;&nbsp;<label>[acceptance uslov id:uslov default:on] &nbsp; Я согласен с <a href="#" target="_blank">условиями передачи информации</a></label></div></td></tr><tr><td colspan="2">[textarea primech id:primech class:tarea1 placeholder "Сообщение"]</td></tr><tr><td colspan="2"><div style="padding-top:23px;">[submit class:obsudit_but1 "Отправить"]</div></td></tr></tbody></table>
